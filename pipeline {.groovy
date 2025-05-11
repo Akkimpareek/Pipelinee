@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                // Deploy your artifact, if necessary
+                // echo Deploy your artifact, if necessary
                 // Example: bat 'mvn deploy'
             }
         }
