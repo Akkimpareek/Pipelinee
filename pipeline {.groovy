@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from version control
-                git 'https://github.com/Akkimpareek/Pipelinee.git'
+                git url 'https://github.com/Akkimpareek/Pipelinee.git'
             }
         }
         stage('Build') {
